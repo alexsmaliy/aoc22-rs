@@ -1,0 +1,28 @@
+$ cd /
+$ ls
+dir d1
+dir d2
+dir d3
+100 f1
+$ cd d1
+$ ls
+dir d11
+dir d12
+200 f11
+300 f12
+$ cd d11
+$ ls
+400 f111
+400 f112
+$ cd ..
+$ cd ..
+$ cd d2
+$ ls
+dir d21
+100 f21
+100 f22
+$ cd ..
+$ cd d3
+$ ls
+200 f31
+200 f32
